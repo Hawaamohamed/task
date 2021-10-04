@@ -14,3 +14,4 @@ now you can see all system.
 
 can get the users data by API from this links http://localhost/task/api/get_data.php  -  http://localhost/task/api/read.php
 
+can see the screen shots.

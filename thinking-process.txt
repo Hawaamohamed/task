@@ -1,0 +1,13 @@
+
+ 1- create database (task).
+
+ 2- create table (users).
+
+ 3- add columns (id, name, email, phone, password, users_privileges, last_login, type, added_by, date).
+
+ 4- design login page and users module.
+
+ 5- make backend for login page and users module.
+
+ 6- test the system.
+ 7- Create API to get And Post Data from this links http://localhost/task/api/get_data.php  -  http://localhost/task/api/read.php

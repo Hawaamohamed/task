@@ -1,0 +1,14 @@
+
+1- admin email: hawaa.mohamed@outlook.com  -  password: hawaa
+
+2- after login will be redirected to users grid.
+
+3- admin have all Privileges in the system.
+
+4- admin can see users grid for all users, add new, add Privileges to users, edit and delete users.
+
+5- if you not have any Privileges in users module you can't see users grid and will see message (You not have a Permission to Show this)
+
+6- the user can do action on users module dependent on his Privileges only.
+
+7- can get the users data by API from this links http://localhost/task/api/get_data.php  -  http://localhost/task/api/read.php

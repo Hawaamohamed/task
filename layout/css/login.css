@@ -1,0 +1,231 @@
+body{
+        background-color: #dcdcd478;
+}
+.has-feedback .form-control {
+    border: none;
+     padding-left: 35px;
+} 
+.unstyled-list{
+    list-style: none;
+        padding: 0;
+}
+
+.big{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.small1,.small2{
+    width: 10%;
+    height: 30%;
+    background: #000000;
+    position: absolute;
+    z-index: -1;
+}
+.small2{
+    background: #000;
+    bottom: 0;
+    right: 0;
+}
+.parent{
+    width: 92%;
+    height: 80%;
+    left: 4%;
+    z-index: 2;
+    top: 10%;
+    position: absolute;
+}
+.div-form,.div-cover {
+  width: 50%;
+  height: 100%;
+  float: none;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.div-form {
+    padding: 20px;
+}
+.div-form form{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.alert-danger{
+     width: 70%;
+     margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.div-form img{
+    max-width: 140px;
+    max-height: 210px;
+    width: 100%;
+}
+.div-form h3{
+    width: 100%;
+}
+.div-cover{
+    background-image: url('../img/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.free-color{
+    color: #000000;
+}
+.tatweer-color{
+    color: #000;
+}
+.free-background{
+    background: #000000;
+}
+input[type="email"],input[type="password"]{
+    background: #aabfcc70;
+    height: 40px;
+    box-shadow: none;
+    color: #000;
+    border-radius: 10px;
+    position: relative;
+    padding: 5px 20px 5px 40px;
+    width: 100%;
+    display: block;
+}
+input[type="submit"]{
+   height: 40px;
+   border-radius: 10px;
+   color: #fff;
+   font-weight: 600;
+}
+.form-group{
+    width: 100%;
+}
+.alert-danger{
+    border-radius: 10px
+}
+input[type="submit"]:hover{
+    color:#eee;
+}
+.glyphicon{
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+    left: 8px;
+}
+.cover-content{
+    background-color: rgba(3, 3, 3, 0.64);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.tw_logo{
+    width: 80px;
+    height: 80px;
+}
+.cover-content h1{
+        width: 100%;
+        margin-top: 12px;
+        margin-bottom: 13px;
+}
+.cover-content p{
+    font-size: 14px;
+    color: #999;
+    line-height: 1.7;
+    margin-bottom: 0;
+    width: 100%;
+    display: block
+}
+.cover-content .images img{
+    margin: 5px ;
+    width: 22px;
+    height: 22px;
+    margin-top: 22px;
+}
+.links{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+.links .unstyled-list{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+        padding: 0;
+}
+.links .unstyled-list > li{
+    float: left;
+    color: #fff;
+    width: 25%;
+    color: #000;
+    font-size: 14px;
+    font-weight: 550
+}
+@media(max-width: 1200px)
+{
+    .parent{
+        height: auto;
+    }
+    .small1,.small2{
+        display: none;
+    }
+}
+@media(max-width: 767px)
+{
+    .big{
+        height: auto;
+    }
+  .div-form,.div-cover,.alert-danger,.div-form form{
+    width: 100%;
+    height: auto;
+  }
+  .links .unstyled-list > li {
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+}
+
+/***************** forgot Password **************/
+.login-box {
+    background: #fff;
+}
+
+.btn.btn-flat {
+    border-radius: 10px;
+}
+.no-margin-bottom{
+    margin-bottom: 0;
+}

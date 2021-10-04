@@ -1,0 +1,125 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#eff0f0;
+    font-family:'Segoe UI';
+}
+.np{
+    padding-left:0;
+    padding-right:0;
+}
+.mt{
+    margin-top:.5em;
+}
+.mt-4{
+    margin-top:.25em;
+}
+.mt-x{
+    margin-top:.75em;
+}
+.m-top{
+    margin-top:2em;
+}
+.ptb{
+    padding-top:.5em;
+    padding-bottom:.5em;
+}
+.ptb-2{
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.visible{
+    width: 100%;
+color: black;
+height: 1px;
+
+}
+.modal-header{
+    padding:0;
+     background-color:#eff0f0;
+}
+.btn-form-new{
+
+    padding:10px;
+    background-color:transparent;
+    border-radius:0;
+    padding-left:0;
+    font-size:14px;
+    font-family:'Segoe UI';
+    font-weight:500;
+
+}
+.btn-form-new:hover{
+     border-bottom:2px solid #000;
+}
+.btn::selection{
+    outline:none;
+}
+.btn:focus{
+    outline:none;
+}
+.btn-form-new:focus{
+
+    outline:0;
+}
+.btn-submit-form{
+        line-height: 25px;
+        margin-top: 10px;
+    padding:0 10px;
+    border:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.btn-active{
+     border-bottom:2px solid #000;
+}
+
+
+
+.pull-right {
+    text-align: right;
+}
+.whiteback{
+    background-color:white;
+}
+    .whiteback h4, .events h4{
+        color: #000;
+        font-size:18px;
+    }
+
+    .btn-ta-1{
+     background-color:#000;
+    color:white;
+    border:none;
+    /* width:20%; */
+    font-family:'Segoe UI';
+    font-size:12px;
+    text-align: center;
+}
+.btn-ta-1:hover{
+    background-color:#000;
+    color:white;
+}
+.btn-grey{
+    font-size:12px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.greyback{
+    background:#ccc;
+}
+.modal-h-back{
+    background-color:transparent;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.modal-h-back h4{
+     color: #000;
+        font-size:18px;
+}
+.tacolor{
+    color: #000;
+}

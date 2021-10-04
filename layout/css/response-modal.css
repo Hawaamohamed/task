@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.response-modal  .btn.active.focus, .response-modal  .btn.active:focus, .response-modal  .btn.focus, .response-modal  .btn:active.focus, .response-modal .btn:active:focus, .response-modal .btn:focus {
+    outline:none;
+
+}
+.response-modal  .modal-backdrop.in{
+    opacity:0;
+}
+.response-modal{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    opacity: 1;
+    background: #000000c9;
+}
+.response-modal .modal-content{
+    border-radius: 6px;
+    background-color: #e1e5e8;
+    color: #4c4c51;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: 1;
+    background: #fff;
+    border: none;
+}
+.response-modal .btn-modal{
+    color: white;
+    background-color: #000000;
+    padding: .5em 2em;
+    font-size: 12px;
+    text-align: right;
+    width: 50%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 11px;
+    border: none;
+}
+.response-modal .btn-modal:hover{
+    color:white;
+    background-color: #000000;
+}
+ .response-modal .btn-modal:focus{
+    color:white;
+    background-color: #000000;
+}
+
+.response-modal .modal-header{
+    margin-top: .5em;
+    text-align: center;
+    padding-top: 10px;    padding-bottom: 0;
+}
+.response-modal .modal-body{
+    margin-top: 0;
+    padding: 15px;
+}
+.response-modal p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.response-modal .modal-footer{
+    text-align: right;
+    margin-top: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding: 0;
+    border: none;
+}
+.response-modal li{
+    list-style: none;
+        color: #e67171;
+}
+
+.display-flex{
+    display: flex;
+}
+.display-none{
+    display: none;
+}
+
+@media (min-width: 768px){
+ .response-modal .modal-dialog {
+    width: 350px;
+ }
+}
+ .response-modal .modal-header {
+    margin-top: 0;
+}
+
+.response-modal h1{
+    font-size: 16px;
+    line-height: 3px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #000000;
+    text-align: left;
+}
+
+
+#success-modal .btn-ok{
+    border-top: .5px solid #ddd;
+    background: #fff;
+    color: #000000;
+    border-radius: 0 0 0px 6px;
+}
+#success-modal .btn-proceed{
+    border-top: .5px solid #000000;
+    border-radius: 0 0 6px 0px;
+        margin-bottom: 0;
+    margin-left: 0;
+}
+.response-modal .try_again{
+        border-radius: 4px 0;
+}

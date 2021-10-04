@@ -1,0 +1,221 @@
+*, h1, h2, h3 ,h4, h5, h6 , body, p{ font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif }
+label,h5{
+  color:#000000;
+} p{     line-height: 1.5;}
+.sectop{
+    margin-bottom:1em;
+}
+.nopad{
+    padding-left:0;
+    margin-bottom:1em;
+}
+.nopad1{
+    padding-right:0;
+     margin-bottom:1em;
+
+}
+.withpad{
+    padding: 1em 2em;
+    max-height:100%;
+    overflow:hidden;
+
+}
+.withpad1{
+    background-color:#f7f5f5;
+    overflow:hidden;
+
+}
+
+form.activity_form_deliver .withpad{
+    height: 90vh;
+    overflow-y: auto;
+}
+form.activity_form_deliver .withpad1{
+        overflow-y: auto;
+
+}
+
+.bodycolor{
+    background-color: #f7f5f5;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+.changecontent{
+    display:block;
+    height:auto;
+    overflow:auto;
+}
+.hidemybody{
+    display:none;
+}
+.trial{
+    display:none;
+}
+.modal-footer{
+    border-top:0;
+    margin-top:1em;
+}
+
+.btnform{
+    margin-top: 20px;
+}
+.btnsubmit{
+    background-color:#000000;
+    color:white;
+    width:100%;
+}
+
+
+
+.attach{
+   margin-top:1.5em;
+   margin-bottom:1.5em;
+
+}
+.attachbord{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.attach >p{
+    margin-bottom:.25em;
+}
+.attach > a{
+     margin-bottom:1em;
+}
+.dhm >p {
+    color:#ccc;
+}
+.taskdet,.pir,.dhm{
+   border-bottom: 1px solid #ccc;
+   margin-top:1.5em;
+   margin-bottom:1.5em;
+
+}
+.status , .feedback{
+     margin-top:1.5em;
+   margin-bottom:1.5em;
+    border-bottom: 1px solid #ccc;
+}
+.reject{
+    display:block;
+    border:none;
+}
+.approve{
+    display:block;
+}
+.custom-file{
+    width:100%;
+   /*border: 1px solid #000000;*/
+   padding:10px;
+    border-radius: 3.5px;
+    height:40px;
+    position:relative;
+    z-index:1;
+
+}
+.custom-file input[type="file"]{
+    width:100%;
+    height:100%;
+    opacity:0;
+    left:0;
+    top:0;
+    position:absolute;
+    z-index:3;
+}
+.screenbuttons{
+    margin-top:8em;
+   overflow:auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .nopad{
+        padding:0;
+        margin-bottom:.5em;
+    }
+    .nopad1{
+        padding:0;
+    }
+}
+.starrating{
+    margin-bottom:1em;
+}
+/*style of the star rating field*/
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; font-size: 14px;}
+
+h1 { font-size: 14px; font-weight:700;color:#000000; }
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+      margin-bottom:1em;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+ float: right;
+}
+
+label{
+        font-weight: 700;
+}
+.modal-content{
+    border-radius: 0;
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+/****************************************hawaa***********************************/
+form.activity_form_deliver .modal-body{
+  padding: 0;
+        background-color: #f7f5f5;
+    height: 90vh;
+    overflow-x: hidden;
+}
+.bg-white{
+    background: #fff;
+}
+.tatweer-color{
+    color: #000000;
+}
+
+.approveAndRejectBack{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.modal-mody h6, .modal-mody p{
+
+    word-break: break-all;
+
+}
+
+.bodycolor h6, .bodycolor h6 p{
+    word-break: break-all;
+}

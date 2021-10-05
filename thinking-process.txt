@@ -10,4 +10,5 @@
  5- make backend for login page and users module.
 
  6- test the system.
- 7- Create API to get And Post Data from this links http://localhost/task/api/get_data.php  -  http://localhost/task/api/read.php
+
+ 7- Create API to get And Post Data from this links http://localhost/task/api/get_data.php - http://localhost/task/api/post_data.php?name=hawaa  -  http://localhost/task/api/read.php
